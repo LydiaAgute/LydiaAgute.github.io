@@ -1,0 +1,1 @@
+import{_ as a,l as t,v as s,A as o,k as r}from"./entry.6c8e4293.js";const l={};function c(e,n){return r(),t("div",null,[s(" Some default layout shared across all pages "),o(e.$slots,"default")])}const f=a(l,[["render",c]]);export{f as default};
