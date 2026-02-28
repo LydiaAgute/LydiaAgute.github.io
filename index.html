@@ -5,8 +5,19 @@
     <link rel="icon" href="/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vite App</title>
-    <script type="module" crossorigin src="/assets/index-DNjn7rSk.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-BSMKRKI3.css">
+    <script>
+      (function() {
+        const savedTheme = localStorage.getItem('theme')
+        if (savedTheme === 'light') {
+          // 保持浅色
+        } else {
+          // 默认深色，或者用户之前选择过深色
+          document.documentElement.classList.add('dark')
+        }
+      })()
+    </script>
+    <script type="module" crossorigin src="/assets/index-Btg8khni.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DxW1Cg3S.css">
   </head>
   <body>
     <div id="app"></div>
